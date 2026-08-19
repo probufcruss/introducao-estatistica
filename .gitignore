@@ -1,0 +1,27 @@
+# Este repositório é PÚBLICO no GitHub — só arquivos .html de slide e a
+# página índice devem ser rastreados/publicados aqui.
+#
+# Os arquivos abaixo continuam normalmente na pasta (você edita e usa
+# no RStudio), só não entram no Git/GitHub — ficam só salvos pelo
+# próprio Google Drive.
+
+# Lixo do RStudio / R
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+rsconnect/
+
+# Fontes e dados — nunca públicos
+*.Rmd
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pdf
+
+# Pastas sensíveis — nunca públicas
+Finalização/
+Lista_alunos/
+1_Descriptive/Book01/

@@ -1,0 +1,45 @@
+
+.element {
+  @include all-text-inputs(disabled) {
+    background-color: gray;
+    color: black;
+  };
+}
+
+
+
+/*size of tittle */
+
+.title-slide hgroup h1 {
+  font-size: 33px;
+  letter-spacing: 3.3px;
+}
+
+
+
+/*size of  the logo */
+
+.gdbar img {
+  width: 300px !important;
+  height: 90px !important;
+  margin: 8px 8px;
+}
+
+
+/*size of the boxe of the logo */
+
+.gdbar {
+  width: 400px !important;
+  height: 120px !important;
+}
+
+/*size of the logo in each page */
+
+slides > slide:not(.nobackground):before {
+  width: 120px;
+  height: 40px;
+  background-size: 120px 40px;
+}
+
+
+
